@@ -1,0 +1,33 @@
+{
+  "name": "chat-ai-api",
+  "version": "1.0.0",
+  "description": "Backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --noEmit && tsx --watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "Chuong",
+  "license": "",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "groq": "^5.13.0",
+    "groq-sdk": "^0.37.0",
+    "openai": "^6.25.0",
+    "stream-chat": "^9.35.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.3",
+    "drizzle-kit": "^0.31.9",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

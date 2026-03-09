@@ -1,0 +1,39 @@
+# Environment files
+.env
+.env*.local
+.env.*
+# Ignore specific secret files
+*.pem
+*.key
+
+.venv
+venv/
+env/
+ENV/
+
+# Package managers
+node_modules/
+jspm_packages/
+
+# Build directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+.cache/
+.nyc_output/
+coverage/
+.jest/
+
+__pycache__/
+*.py[cod]
+*$py.class
+.cache
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo

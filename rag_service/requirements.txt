@@ -1,0 +1,12 @@
+beautifulsoup4>=4.14.3
+
+langchain-community==0.3.25
+langchain-openai==0.3.23
+langchain-postgres>=0.0.17
+lxml>=6.0.2
+psycopg2-binary>=2.9.11
+
+python-dotenv==1.1.0
+
+requests>=2.32.5
+

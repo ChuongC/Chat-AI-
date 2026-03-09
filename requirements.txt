@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-openai
+langchain-postgres
+langchain-community
+langchain-text-splitters
+pgvector
+psycopg2-binary
+python-dotenv
+pydantic
